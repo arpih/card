@@ -1,0 +1,88 @@
+body {
+  background: url("../img/backgroung_img.jpg") no-repeat center center fixed; 
+  background-size: cover;
+}
+
+.main-container {
+  height: 650px;
+	display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 800px;
+	height: 400px;
+}
+
+.slide-container {
+  margin: 0 30px 0 20px;
+}
+
+.slider {
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.slider img {
+	object-fit: cover;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+}
+
+.pointers {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 200px;
+}
+
+.prev, .next {	
+	cursor: pointer;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slider-dots {
+	text-align: center;
+}
+
+.slider-dots_item{
+	cursor: pointer;
+	height: 12px;
+	width: 12px;
+	margin: 0 2px;
+	background-color: #bdb8b8;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active,
+.slider-dots_item:hover {
+  background-color: #8e8888;
+}
+
+.information {
+		width: 500px;
+    height: 250px;
+}
+
+.contact {
+  margin-left: 40px;
+}
+
+a, a:hover {
+  color: black;
+}
