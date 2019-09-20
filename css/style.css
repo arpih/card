@@ -1,5 +1,5 @@
 body {
-  background: url("../img/backgroung_img.jpg") no-repeat center center fixed; 
+  background: url("../img/backgroung_img.jpg") no-repeat center fixed;
   background-size: cover;
 }
 
@@ -75,8 +75,9 @@ body {
 }
 
 .information {
-		width: 500px;
-    height: 250px;
+  width: 500px;
+  height: 250px;
+  font-size: large;
 }
 
 .contact {
@@ -85,4 +86,26 @@ body {
 
 a, a:hover {
   color: black;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .main-container {
+    height: 1300px;
+  }
+
+  .info-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .slide-container {
+    margin: 100px 30px 0 150px;
+  }
+
+  .information {
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    margin-left: 100px;
+  }
 }
