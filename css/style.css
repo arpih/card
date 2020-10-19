@@ -14,7 +14,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 800px;
+	width: 1000px;
 	height: 400px;
 }
 
@@ -75,9 +75,75 @@ body {
 }
 
 .information {
-  width: 500px;
+  width: 800px;
   height: 250px;
   font-size: large;
+}
+
+.info {
+  display: flex;
+}
+
+.info-item {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  font-size: 15px;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: #84accd;
+  text-align: center;
+  padding: 5px;
+  margin: 15px;
+}
+
+.info-item:hover {
+  border: 2px solid black;
+}
+
+.educ-info {
+  display: none;
+}
+
+.education:hover + .educ-info {
+  display: block;
+  background-color: aliceblue;
+}
+
+.work-info {
+  display: none;
+  background-color: aliceblue;
+}
+
+.work:hover + .work-info {
+  display: block;
+}
+
+.skills-info {
+  display: none;
+  background-color: aliceblue;
+}
+
+.skills:hover + .skills-info {
+  display: block;
+}
+
+.lang-info {
+  display: none;
+  background-color: aliceblue;
+}
+
+.language:hover + .lang-info {
+  display: block;
+}
+
+.work-item {
+  padding: 10px;
+}
+
+.icon {
+  margin-right: 5px;
 }
 
 .contact {
