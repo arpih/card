@@ -102,39 +102,18 @@ body {
   border: 2px solid black;
 }
 
-.educ-info {
+.information-item {
+  background-color: aliceblue;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 25px;
+}
+
+.educ-info, .work-info, .skills-info, .lang-info {
   display: none;
 }
 
-.education:hover + .educ-info {
-  display: block;
-  background-color: aliceblue;
-}
-
-.work-info {
-  display: none;
-  background-color: aliceblue;
-}
-
-.work:hover + .work-info {
-  display: block;
-}
-
-.skills-info {
-  display: none;
-  background-color: aliceblue;
-}
-
-.skills:hover + .skills-info {
-  display: block;
-}
-
-.lang-info {
-  display: none;
-  background-color: aliceblue;
-}
-
-.language:hover + .lang-info {
+.education:hover + .educ-info, .work:hover + .work-info, .skills:hover + .skills-info, .language:hover + .lang-info {
   display: block;
 }
 
