@@ -14,7 +14,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 1000px;
+	width: 1300px;
 	height: 400px;
 }
 
@@ -76,12 +76,11 @@ body {
 
 .information {
   width: 800px;
-  height: 250px;
+  height: 300px;
   font-size: large;
-}
-
-.info {
+  margin-left: 50px;
   display: flex;
+  flex-direction: column;
 }
 
 .info-item {
@@ -127,14 +126,14 @@ body {
 }
 
 .contact {
-  margin-left: 40px;
+  margin: 20px 0 0 30px;
 }
 
 a, a:hover {
   color: black;
 }
 
-@media only screen and (max-device-width: 480px) {
+/* @media only screen and (max-device-width: 480px) {
   .main-container {
     height: 1300px;
   }
@@ -147,11 +146,4 @@ a, a:hover {
   .slide-container {
     margin: 100px 30px 0 150px;
   }
-
-  .information {
-    width: 300px;
-    height: 100px;
-    text-align: center;
-    margin-left: 100px;
-  }
-}
+} */
